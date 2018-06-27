@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Prime number</title>
+</head>
+<body>
+<form [name]="form">
+  Enter number to check:
+  <input [type]="text" [name]="text" ngModel="data"/>
+  <div ngBind="data">
+    {{data}}
+  </div>
+  <button (click)="checkPrime(data)">Check Here!</button>
+</form>
+
+</body>
+</html>

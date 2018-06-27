@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'amazon.com';
   myFunction()
   {
-    alert("I'm here!");
+    alert("I'm here!" +this.title);
   }
 
 }
