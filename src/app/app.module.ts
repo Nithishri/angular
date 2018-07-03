@@ -10,6 +10,7 @@ import { OutputComponent } from './output/output.component';
 import { ConsoleComponent } from './console/console.component';
 import { CountComponent } from './count/count.component';
 import { DisplayComponent } from './display/display.component';
+import { AttrDirective } from './attr.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DisplayComponent } from './display/display.component';
     OutputComponent,
     ConsoleComponent,
     CountComponent,
-    DisplayComponent
+    DisplayComponent,
+    AttrDirective
   ],
   imports: [
     BrowserModule

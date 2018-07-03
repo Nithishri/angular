@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './software.component.html',
   styleUrls: ['./software.component.css']
 })
-export class SoftwareComponent implements OnInit {
+export class SoftwareComponent  {
+myfunction(x:number){
 
-  constructor() { }
+  alert("SQ of number:" +x*x);
+}
 
-  ngOnInit() {
-  }
+
+
 
 }
